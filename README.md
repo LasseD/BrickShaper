@@ -5,4 +5,12 @@ Converts mathematic shapes to LEGO models
 There is currently no UI for this project. Set up your shape in FigureCreator.java and run this file.
 
 
-The .classpath and .project files can be used by Eclipse to set up the project.
+## Compile with the command:
+
+javac -cp src -d bin src/shapes/FigureCreator.java
+
+
+## Example of how to run:
+
+java -cp bin shapes.FigureCreator 50
+
